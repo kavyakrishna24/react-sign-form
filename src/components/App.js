@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../styles/App.css";
 // import { validate } from 'schema-utils';
 // import  From  from '../Comenent/From';
-import { signUpFormValidation } from "../utils/validation";
+import { signUpFormValidation } from "../utils/validation.js";
 
 function App() {
   const initialValue = {
